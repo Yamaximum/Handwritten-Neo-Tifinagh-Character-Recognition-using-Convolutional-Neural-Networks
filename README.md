@@ -9,6 +9,8 @@ The dataset used for this project is stored in a MATLAB file named `BDR.mat`. It
 - `Data_Set2`: Images of handwritten Neo-Tifinagh characters.
 - `Data_Label`: Corresponding labels for each character.
 
+  ![Figure_1a](https://github.com/Yamaximum/Handwritten-Neo-Tifinagh-Character-Recognition-using-Convolutional-Neural-Networks/assets/144939420/d53cde1a-88bf-46e5-b0c4-0566ba622339)
+
 ## CNN Model
 
 The Convolutional Neural Network (CNN) architecture used for character recognition is inspired by the NYU Deep Learning for Self-Driving Cars course material available [here](https://github.com/Atcold/NYU-DLSP20/blob/master/06-convnet.ipynb). The model architecture consists of the following layers:
