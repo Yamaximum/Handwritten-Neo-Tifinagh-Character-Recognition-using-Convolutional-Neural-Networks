@@ -38,7 +38,6 @@ A confusion matrix is generated to assess the model's classification performance
 
 ## Repository Structure
 
-- `BDR.mat`: The dataset file.
 - `NeoTifinaghCharacterRecognition.ipynb`: file containing the code.
 - `README.md`: This README file providing project details and instructions.
 
