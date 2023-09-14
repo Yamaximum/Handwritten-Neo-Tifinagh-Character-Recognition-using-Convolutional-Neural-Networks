@@ -2,12 +2,15 @@
 
 This GitHub repository contains code and resources for a character recognition project using Convolutional Neural Networks (CNNs) to recognize handwritten Neo-Tifinagh characters. Neo-Tifinagh is a script used to write the Tamazight language. The project focuses on training a deep learning model to classify handwritten Neo-Tifinagh characters into their respective classes.
 
-## Data
+## Dataset
 
-The dataset used for this project is stored in a MATLAB file named `BDR.mat`. It contains two main components:
+The dataset used in this project consists of handwritten Neo-Tifinagh characters. I collected a diverse set of characters to ensure a comprehensive training and testing dataset for the character recognition model. The dataset is stored in a MATLAB file named `BDR.mat`.
 
-- `Data_Set2`: Images of handwritten Neo-Tifinagh characters.
-- `Data_Label`: Corresponding labels for each character.
+- **Data Collection**: Handwritten Neo-Tifinagh characters were collected from various sources.
+
+- **Labeling**: Each character was manually labeled with the corresponding Neo-Tifinagh character class, ranging from 0 to 32.
+
+- **Data Preprocessing**: The collected data underwent preprocessing steps to standardize image dimensions and prepare it for training and testing.
 
   ![Figure_1a](https://github.com/Yamaximum/Handwritten-Neo-Tifinagh-Character-Recognition-using-Convolutional-Neural-Networks/assets/144939420/d53cde1a-88bf-46e5-b0c4-0566ba622339)
 
@@ -37,13 +40,13 @@ The model's performance is evaluated on the test dataset, including the calculat
 A confusion matrix is generated to assess the model's classification performance, with results displayed as a heatmap.
 
 ## Repository Structure
-
+- `results/`: Directory containing project results.
 - `NeoTifinaghCharacterRecognition.ipynb`: file containing the code.
 - `README.md`: This README file providing project details and instructions.
 
 ## Usage
 
-You can clone this repository and run the Jupyter Notebook `NeoTifinaghCharacterRecognition.ipynb` to train and evaluate the CNN model for handwritten Neo-Tifinagh character recognition. 
+You can clone this repository and use the provided code to train and evaluate the CNN model for handwritten Neo-Tifinagh character recognition. 
 
 Please note that this project may require additional dependencies such as PyTorch, NumPy, Matplotlib, and Seaborn.
 
