@@ -25,8 +25,8 @@ labels = labels - 1
 # Remove extra dimensions
 labels = labels.squeeze() 
 
-# Reshape the images to (45102, 50, 50) if needed
-images = np.moveaxis(images, -1, 0)  # Move the last dimension to the first
+# Reshape the images to (45102, 50, 50) 
+images = np.moveaxis(images, -1, 0)   
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(images, labels, test_size=0.11, random_state=42)
