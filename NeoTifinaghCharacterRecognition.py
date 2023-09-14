@@ -70,7 +70,7 @@ train_accuracy_list = []
 test_loss_list = []
 test_accuracy_list = []
 
-def train(epoch, model, perm=torch.arange(0, 50*50).long()):
+def train(epoch, model):
     model.train()
     total_loss = 0
     correct = 0
