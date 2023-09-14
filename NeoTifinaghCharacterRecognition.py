@@ -103,7 +103,7 @@ def train(epoch, model):
     train_accuracy_list.append(accuracy)
     print('Epoch {}: Train Loss: {:.4f}, Accuracy: {:.2f}%'.format(epoch, total_loss, accuracy))
 
-def test(model, perm=torch.arange(0, 50*50).long()):
+def test(model):
     
     # Evaluate the model's performance on the test dataset
     model.eval()
